@@ -811,6 +811,26 @@ knitr::include_graphics("img/contour.png")
 
 ---
 
+# Interpretación de lo anterior (Esto no va..)
+
+**COAL**
+Cuando la WIR disminuye de manera extrema, es decir hay un aumento en la liquidez global, las empresas de coal perciben un efecto positivo sobre la rentabilidad de manera instantánea. Después de unos trimestres (3 en adelante), este efecto se invierte y se perciben efectos negativos sobre la rentabilidad.
+
+**OIL & GAS**
+Cuando la WIR disminuye y principalmente de manera extrema, es decir hay un aumento en la liquidez global, las empresas de oil & gas perciben un efecto negativo muy fuerte sobre la rentabilidad de manera instantánea y se prolonga por los siguientes tres a cuatro trimestres. Después de unos trimestres (6 en adelante), este efecto se invierte y se perciben efectos positivos sobre la rentabilidad.
+
+**OIL & GAS (Equipment and services)**
+Cuando la WIR disminuye de manera extrema, es decir hay un aumento en la liquidez global, las empresas de oil & gas (Equipos y servicios) perciben un pequeño efecto negativo sobre la rentabilidad de manera instantánea y en el siguiente trimestre. De manera general, este subsector no percibe grandes efectos ante variaciones en la liquidez mundial.
+
+**RENEWABLE**
+Cuando la WIR disminuye de manera extrema, es decir hay un aumento en la liquidez global, las empresas de energía renovables perciben un efecto negativo sobre la rentabilidad de manera instantánea y en el siguiente trimestre.
+
+**URANIUM**
+Cuando la WIR disminuye de manera extrema, es decir hay un aumento en la liquidez global, las empresas de energía de Uranio perciben un pequeño efecto negativo sobre la rentabilidad de manera instantánea. Posterior al segundo trimestre existe un efecto positivo sobre la rentabilidad.
+
+
+
+---
 
 
 <div class="my-logo-right"></div>
@@ -822,9 +842,9 @@ knitr::include_graphics("img/contour.png")
 knitr::include_graphics("img/efecto_acum.png")
 ```
 
-
-
 ---
+
+
 
 name: Conclusion
 
@@ -862,7 +882,7 @@ class: inverse, mline, center, middle
 
 .right-column[
 .font120[
-> We estimate the number of statistical factors that underlie profitability dynamics over time for the banking industry. Three factors are enough to describe 63.40%, 68% and 67.50% of ROE, ROA and EBITDA, respectively.
+> El efecto de la liquidez global sobre la rentabilidad de las empresas de energía es completamente no lineal, es decir asimétrico.
 
 <br>
 
@@ -870,7 +890,7 @@ class: inverse, mline, center, middle
 
 <br>
 
-> The numbers increase according to bank size, which indicates that, as expected, the larger the bank is, the more cyclically it behaves.
+> La rentabilidad de las empresas energéticas se ve afectada de manera diferente según su subsector respecto a la liquidez global.
 
 ]
 ]
@@ -878,14 +898,7 @@ class: inverse, mline, center, middle
 
 ???
 
-•	Diapositiva 24 - 25 – Conclusions
 
-1)
-We estimate the number of statistical factors that underlie profitability dynamics over time for the banking industry. Three factors are enough to describe 63.40%, 68% and 67.50% of ROE, ROA and EBITDA, respectively.
-
-
-2)
-The numbers increase according to bank size, which indicates that, as expected, the larger the bank is, the more cyclically it behaves.
 
 
 ---
@@ -916,10 +929,9 @@ The numbers increase according to bank size, which indicates that, as expected, 
 
 .right-column[
 .font120[
-> Our results indicate that these three statistical factors are mainly related to
- - `households’ financial burden and economic activity`
- - `households’ income and employment` 
- - `commercial loans`
+> Aumentos en la liquidez global, i.e., WIR negativa, presentan efectos más fuertes en la rentabilidad, pero estos no son persitentes en el tiempo.
+
+]
 
 <div style="line-height:5%;">
     <br>
@@ -932,26 +944,14 @@ The numbers increase according to bank size, which indicates that, as expected, 
 <br>
 
 
-> We provide a means to monitor profitability in the banking industry from an integrative perspective by establishing rankings of the financial institutions according to their exposure (either positive or negative) to the three market forces that we identify.
+> La disminución en las tasas de interés implica la intervención de diferentes autoridades monetarias para impulsar la liquidez, respaldar el crecimiento económico y restaurar la estabilidad financiera. Empresas como oil & gas que su rentabilidad depende principalmente de los precios del oil and gas, muestran que, ante tasas de interés bajas el efecto contemporáneo sobre la rentabilidad es negativo. Esto principalmente por condiciones de bajo precio en las materias primas, desaceleración en la economía, etc. Solamente después del segundo o tercer trimestre empieza a aumentar positivamente el efecto sobre la rentabilidad.
 
 ]
-]
+
 
 ???
 
-•	Diapositiva 26 – Conclusions
 
-3)
-
-Our results indicate that these three statistical factors are mainly related to:
-
-- households’ financial burden and economic activity
-- households’ income and employment
-- commercial loans
-
-
-4)
-We provide a means to monitor profitability in the banking industry from an integrative perspective by establishing rankings of the financial institutions according to their exposure (either positive or negative) to the three market forces that we identify.
 
 ---
 
@@ -990,7 +990,9 @@ We provide a means to monitor profitability in the banking industry from an inte
 <br>
 
 .font120[
-> Given that our results seem more relevant for large banks than for small banks, it could be that for banks outside of our sample, which are even smaller, the results lack the same validity.
+> Las empresas de Uranium muestran efectos positivos fuertes sobre la rentabilidad ante aumentos en la liquidez mundial (i.e., WIR negativa).
+Las empresas de energías renovables y oil & gas relacionadas con equipment and services son menos sensibles ante las variaciones en la liquidez mundial.
+
 
 <br>
 
@@ -1001,13 +1003,6 @@ We provide a means to monitor profitability in the banking industry from an inte
 ]
 
 ???
-
-•	Diapositiva 27 – Conclusions
-
-and.. finally...
-
-Given that our results seem more relevant for large banks than for small banks, it could be that for banks outside of our sample, which are even smaller, the results lack the same validity.
-
 
 
 
