@@ -1,0 +1,1100 @@
+---
+title: "Global liquidity and the profitability of energy firms"
+subtitle: "ICEE 2022 - PORTO, PORTUGAL"
+author: "Orlando Joaqui-Barandica **|** Diego F. Manotas-Duque **|** Jorge M. Uribe"
+date: "June 2-3, 2022"
+output: 
+  xaringan::moon_reader:
+    css:
+      - default
+      - mtheme.css
+      - fonts_mtheme.css
+      - sydney.css
+      - rladies
+    includes:
+      in_header: "mathjax-equation-numbers.html"
+    nature: 
+      ratio: 16:9
+      beforeInit: "macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+
+```{r setup, include=FALSE}
+library(knitr)                              # paquete que trae funciones utiles para R Markdown
+library(tidyverse)                          # paquete que trae varios paquetes comunes en el tidyverse
+library(datos)                              # paquete que viene con datos populares traducidos al español :)
+library(shiny)
+# opciones predeterminadas
+knitr::opts_chunk$set(echo = FALSE,         # FALSE: los bloques de código NO se muestran
+                      dpi = 300,            # asegura gráficos de alta resolución
+                      warning = FALSE,      # los mensajes de advertencia NO se muestran
+                      error = FALSE)        # los mensajes de error NO se muestran
+
+
+options(htmltools.dir.version = FALSE)
+
+```
+
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+xaringanExtra::use_share_again()
+```
+
+
+class: clear
+
+
+.pull-left[
+
+.center[
+
+<br><br>
+
+```{r echo=FALSE, out.width = "75%" }
+knitr::include_graphics("img/logos.png")
+```
+
+]
+]
+
+
+.pull-right[
+
+
+.center[
+<img style="border-radius: 50%;" src="img/avatar.png"
+width="100px" href="https://www.joaquibarandica.com"
+/>
+
+[PhD. Student. Orlando Joaqui-Barandica](https://www.joaquibarandica.com) <br/>
+Universidad del Valle
+]
+
+
+.center[
+<img style="border-radius: 50%;" src="img/avatar2.PNG"
+width="100px"
+/>
+
+[PhD. Diego F. Manotas-Duque](http://industrial.univalle.edu.co/profesores/diego-fernando-manotas-duque) <br>
+Universidad del Valle
+]
+
+.center[
+<img style="border-radius: 50%;" src="img/avatar3.PNG"
+width="100px"
+/>
+
+[PhD. Jorge M. Uribe](https://jorgemuribe.com/) <br>
+Universitat Oberta de Catalunya
+]
+
+]
+
+
+???
+
+•	Diapositiva 1 - Saludo
+
+Good afternoon everyone, it is a pleasure to be here and share with you virtually.
+My name is Orlando Joaqui Barandica, I am a doctoral student at Universidad del Valle in Colombia.
+Today I will talk about Commonality, macroeconomic factors and bank profitability. In advance, I apologize for my English, I am in the process of strengthening my speaking and my listening.
+
+
+•	Diapositiva 2 – Autores
+
+This research is carried out in conj(y)unction with my thesis supervisors, Professor Diego Manotas from the Universidad del Valle, and Professor Jorge M. Uribe from the Universidad Oberta de Cataluña.
+
+
+
+
+---
+
+class: contenido
+
+<div class="my-logo-right"></div>
+
+
+# Content
+
+
+.pull-left[
+
+</br>
+
+###  `r icon::fa("circle-notch", animate = "spin")` [Motivation](#Motivation)
+
+
+###  `r icon::fa("circle-notch", animate = "spin")` [Energy profitability literature](#Literature)
+
+
+###  `r icon::fa("circle-notch", animate = "spin")` [Methodology & Data](#Methodology)
+
+
+###  `r icon::fa("circle-notch", animate = "spin")` [Results](#Results)
+
+
+###  `r icon::fa("circle-notch", animate = "spin")` [Conclusion](#Conclusion)
+
+]
+
+.pull.right[
+
+]
+
+
+???
+
+•	Diapositiva 3 – Contenido
+
+This is the content that we will have today: We will start with a short introduction to the research topic.
+
+Later I will present some consulted works on bank profitability. We will continue with the methodology carried out in the empirical work and we will end with the results and conclusions of the investigation.
+
+
+
+---
+
+name: Motivation
+
+class: inverse, mline, center, middle
+<div class="my-logo-center"></div>
+
+
+
+# Motivation
+
+
+
+---
+
+<div class="my-logo-right"></div>
+
+# Motivation
+
+<br><br>
+
+.pull-left[
+
+.font120[
+* Understanding the determinants of companies’ profitability is of utmost importance for both, academics and corporate managers.
+
+* Different empirical and theoretical studies show that profitability depends on external conditions, industry scope and specific firms’ characteristics `(Wieczorek-Kosmala et al., 2021)` 
+]
+
+]
+
+.pull-right[
+
+.center[
+
+![](https://media.giphy.com/media/w3IE6RmM6bwrmLFEUb/giphy.gif)
+
+
+.font120[
+`External determinants` vs. `Internal determinants`
+]
+
+]
+
+]
+
+---
+
+
+<div class="my-logo-right"></div>
+
+
+# Introduction
+
+.left-column[
+
+## Profitability... 
+
+... is defined as the ability to take advantage of resources to generate profits, therefore, as an indicator of effective management.
+]
+
+
+.right-column[
+
+## Idiosyncratic characteristics vs. Common forces
+
+.font120[
+Identifying the determinants of profitability and anticipating its fluctuations guarantees timely and informed decision-making that maximizes value for the company’s stakeholders.
+
+
+.pull-left[
+**Internal determinants**
+* `Firms’ age`
+* `Size`
+* `Financial leverage`
+* etc.
+]
+
+
+.pull-right[
+**External determinants**
+* `Fuel prices`
+* `Interest rates`
+* `Exchange rates`
+* `Economic activity`
+* etc.
+
+]
+
+]
+
+]
+
+???
+
+
+
+
+---
+
+
+
+<div class="my-logo-right"></div>
+
+
+# Motivation
+
+
+.font180[**Here...**]
+
+.right[
+
+<br>
+
+.font180[... we analyze the external determinants of the profitability of energy firms, and specifically, the effect of `global liquidity` on the profitability of companies belonging to different energy sub-sectors]
+
+]
+
+<hr>
+
+<br>
+
+.font120[
+`r anicon::faa("angle-double-right", animate = "passing")` Our working hypothesis is that changes of `global interest rates` (and hence of funding liquidity) have important effects on the financial operation of large energy firms.
+]
+
+
+
+???
+
+
+
+
+
+---
+
+
+name: Literature
+
+class: inverse, mline, center, middle
+<div class="my-logo-center"></div>
+
+
+
+# Energy profitability literature
+
+
+???
+
+Regarding the literature review, we have the following:
+
+
+---
+
+
+<div class="my-logo-right"></div>
+
+# Energy profitability literature
+
+.pull-left[
+
+
+.center[
+*All companies are exposed to changes in global liquidity.*
+]
+
+> Interest rates are associated with prices of raw materials, which affect both operating costs and sales `(Gupta and Krishnamurti, 2018)`.
+
+<br>
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.height= "100%", out.width="100%"  }
+
+library(datapasta)
+library(gt)
+library(tidyverse)
+library(glue)
+
+T1<-tibble::tribble(
+                                      ~" ",
+                 "* Ratti and Vespignani (2016)",
+                     "* Hammoudeh et al. (2015)",
+                  "* Díez-Esteban et al. (2017)",
+  ">>> Topic: Commodity prices (oil, coal, gas), Economic activity, oil prices"
+  )
+
+
+T1 %>% 
+  gt() %>% 
+tab_header(
+title = md("**Oil firms, Coal firms, Gas Firms**"),
+subtitle = md("Authors")
+  ) %>% 
+  cols_width(
+    " " ~ px(350))
+
+
+```
+
+]
+
+.pull-right[
+
+<br>
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.height= "100%", out.width="100%"  }
+
+library(datapasta)
+library(gt)
+library(tidyverse)
+library(glue)
+
+
+T2<-tibble::tribble(
+                                          ~" ",
+                               "* Sutherland (2019)",
+                            "* Schmidt et al. (2019)",
+  ">>> Topic: Government subsidies, economic stimulus"
+  )
+
+
+T3<-tibble::tribble(
+                                    ~" ",
+                "* Asimakopoulos et al. (2009)",
+                       "* Claver et al. (2002)",
+  ">>> Topic: Size, sales growth and investment"
+  )
+
+
+
+T2 %>% 
+  gt() %>% 
+tab_header(
+title = md("**Renewables energy**"),
+subtitle = md("Authors")
+  ) %>% 
+  cols_width(
+    " " ~ px(350))  
+
+
+  
+T3 %>% 
+  gt() %>% 
+tab_header(
+title = md("**Beyond the energy field**"),
+subtitle = md("Authors")
+  ) %>% 
+  cols_width(
+    " " ~ px(350))  
+
+```
+
+]
+
+---
+
+name: Methodology
+
+class: inverse, mline, center, middle
+<div class="my-logo-center"></div>
+
+
+
+# Methodology & Data
+
+???
+
+About the methodology and the data, we have:
+
+
+---
+
+<div class="my-logo-right"></div>
+
+
+# Methodology
+
+
+.font120[
+
+> `r emo::ji("one")` `Global liquidity -> World Interest Rate (WIR)` We extract the first principal component of the interest rates in developed markets. 
+
+<div style="line-height:5%;">
+    <br>
+</div>
+
+
+> `r emo::ji("two")` We estimate `Common factor of profitability` of a sample the energy companies worldwide using FPCA (Functional Principals Components Analyses)  according to their energy subsector:  
+* Coal
+* Oil & Gas
+* Oil & Gas Related Equipment and Services
+* Renewable Energy 
+* Uranium
+
+<div style="line-height:5%;">
+    <br>
+</div>
+
+
+> `r emo::ji("three")` We measure `The effect of global liquidity on profitability` using  DLNM (Distributed Lag Nonlinear Model ).
+
+
+]
+
+
+???
+
+
+
+
+
+
+---
+
+
+
+<div class="my-logo-right"></div>
+
+
+
+# Factor analysis by principal components (PCA)
+
+
+<br>
+
+.pull-left[
+
+.font120[
+
+The PCA method comes from `Hotelling (1933)` and gained notoriety in the 1970s and 1980s (e.g., `Jolliffe (1986)`; `Lawley and Maxwell (1971)`).
+
+
+We take the first component as the world interest rate. We estimate $WIR_j$ $(j = 1,...,p)$ where each $WIR_j$ is a linear combination of the original variables. In this case, the long and short-term interest rates are given by $w_1,w_2,...,w_p$, hence:
+
+]
+]
+
+.pull-right[
+
+.font120[
+
+
+
+$$\begin{align}
+{WIR}_j & =    a_{j1}w_1+ a_{j2}w_2+\ldots + a_{jp}w_p \nonumber \\
+        & =   \mathrm{a}_j^\prime\mathrm{w}
+\end{align}$$
+
+<br>
+
+where $\mathrm{a}_j^\prime=(a_{1j}, a_{2j}, \ldots, a_{pj})$ a vector of constants, and $w$ a vector of global interest rates.
+
+$$\begin{equation}\mathrm{W}= \begin{bmatrix}
+w_1 \\ 
+\vdots \\ 
+w_p
+\end{bmatrix}\end{equation}$$
+
+]
+]
+
+
+???
+
+
+
+---
+
+
+<div class="my-logo-right"></div>
+
+# Functional principals components analysis
+
+<br>
+
+.font120[
+
+We use sparse functional data methods to reconstruct the whole history of profitability for all firms in the dataset. This can be expressed following `Yao et al. (2005)` like: 
+
+
+$$\begin{equation}
+X_i\left(t\right)=\mu\left(t\right)+\sum_{k=1}^{\infty\ }{\xi_{ik}\varphi_k\left(t\right)}
+\end{equation}$$
+
+where $\xi_{ik}$ are functional principal components for $X_i\left(t\right)$  (i.e. underlaying series), and $\varphi_1, \varphi_2, \ldots$ are the corresponding orthonormal eigenfunctions.
+
+The entire data set is used to estimate the eigenvalues and the eigenfunctions in the following way:
+
+$$\begin{equation}
+{\hat{\xi}}_{ik}=E[\xi_{ik}|\tilde{\boldsymbol{Y}}_i] = {\hat{\lambda}}_k{\hat{\varphi}}_{ik}^T {\hat{\mathbf{\Sigma}}}_i^{-1}\left({\tilde{{\boldsymbol{Y}}}}_i-{\hat{{\boldsymbol{\mu}}}}_i\right)
+\end{equation}$$
+
+where ${\hat{{\Sigma}}}_i=\ {\hat{{G}}}_i+\sigma^2{I}$, and ${\tilde{{Y}}}_i=\left(Y_{i1},\ \ldots,\ Y_{iN_i}\right)^T$. 
+
+
+
+]
+
+
+???
+
+
+
+
+
+---
+
+
+<div class="my-logo-right"></div>
+
+
+# Distributed lag nonlinear model (DLNM)
+
+<br>
+
+.font120[
+We propose to use the FPC regarding energy firm’s profitability as the response variable in our model and our global liquidity indicator as to the explanatory variable. This relationship is given by:
+
+$$\begin{equation}
+g\left(\mu_t\right)=\alpha+\sum_{j=1}^{J}{s_j\left({WIR}_{tj};\beta_j\right)}+\sum_{k=1}^{K}\gamma_ku_{tk}
+\end{equation}$$
+
+
+where $\mu\equiv E(\hat{\xi})$, $g$ is a monotonic link function. The function $s_j$ represents the smoothed relationship between the variables ${WIR}_j$ and the linear predictor that is represented by the vector of parameters $\beta_j$. The variables $u_k$ include other predictors with linear effects specified by the related coefficients $\gamma_k$ `(Gasparrini, 2011)`. 
+
+]
+
+
+???
+
+
+
+---
+
+<div class="my-logo-right"></div>
+
+# Data
+
+
+
+
+.panelset[
+.panel[.panel-name[Profitability information]
+
+
+> `r anicon::faa("angle-double-right", animate = "passing")`  Profitability information of energy companies was retrieved from the Refinitiv EIKON database.
+
+> `r anicon::faa("angle-double-right", animate = "passing")`  We use ROA (Return on Assets)
+
+<div style="line-height:5%;">
+    <br>
+</div>
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.height= "100%", out.width="100%"  }
+
+library(datapasta)
+library(gt)
+library(tidyverse)
+library(glue)
+
+
+T2<-tibble::tribble(
+ ~`Sub-sectors`,                         ~`n = 536`,     ~`(%)`,
+"Coal",                                  15,       2.7, 
+"Oil & Gas",                            278,      51.8, 
+"Oil & Gas (Equipment and Services)",   177,      32.8, 
+"Renewable Energy",                      58,       10.7,
+"Uranium",                               11,        2.0
+  )
+
+
+
+
+T2 %>% 
+  gt() %>% 
+tab_header(
+title = md("**Sample of firms according to  profitability indicator ROA and energy sub-sector.**"),
+subtitle = md("The period: 2000Q1 to 2021Q2")
+  )%>% 
+  tab_source_note(
+    source_note = "Note: We use Refinitiv Business Classification (TRBC) to assign subsectors to each energy firm in our sample."
+  )
+  
+
+
+
+```
+
+]
+
+
+.panel[.panel-name[Global liquidity information]
+
+
+> `r anicon::faa("angle-double-right", animate = "passing")`  We use interest rate information from developed markets.
+
+> `r anicon::faa("angle-double-right", animate = "passing")`  Short-term and long-term interest rates were extracted from the OECD database
+
+<div style="line-height:5%;">
+    <br>
+</div>
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.height= "100%", out.width="100%"  }
+
+library(datapasta)
+library(gt)
+library(tidyverse)
+library(glue)
+
+
+T3<-tibble::tribble(
+         ~` `,        ~`  `,            ~`   `,               ~`    `,              ~`     `,
+  "Australia", "Finland",       "Italy",       "Portugal", "United States",
+    "Austria",  "France",       "Japan",          "Spain",              " ",
+    "Belgium", "Germany", "Netherlands",         "Sweden",              " ",
+     "Canada", "Ireland", "New Zealand",    "Switzerland",              " ",
+    "Denmark",  "Israel",      "Norway", "United Kingdom",              " "
+  )
+
+  
+
+
+
+T3 %>% 
+  gt() %>% 
+  tab_header(
+    title = md("**Developed economies**"),
+    subtitle = md("The period: 2000Q1 to 2021Q2")
+  ) 
+
+
+
+```
+
+]
+
+
+
+.panel[.panel-name[Energy firms by country]
+
+<br>
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.height= "100%", out.width="100%"  }
+
+fig.mapamundi<-readRDS("RDS/fig.mapamundi.RDS")
+
+fig.mapamundi
+
+
+
+```
+
+]
+
+
+
+
+
+]
+
+
+---
+
+
+name: Results
+
+class: inverse, mline, center, middle
+<div class="my-logo-center"></div>
+
+
+
+# Results
+
+???
+
+RESULTSSS
+
+---
+
+
+
+<div class="my-logo-right"></div>
+
+# World Interest Rate
+
+
+```{r echo=FALSE, out.width = "100%" }
+knitr::include_graphics("img/WIR.png")
+```
+
+
+
+---
+
+<div class="my-logo-right"></div>
+
+# Response surface
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.height= "100%", out.width="100%"  }
+
+
+cp1<-readRDS("RDS/cp1_coal.RDS")
+#cp2<-readRDS("RDS/cp1_oil.RDS")
+#cp3<-readRDS("RDS/cp1_oil_es.RDS")
+#cp4<-readRDS("RDS/cp1_renewable.RDS")
+#cp5<-readRDS("RDS/cp1_uranium.RDS")
+
+
+library(plotly)
+
+ejey<-as.numeric(rownames(cp1$matfit))
+
+p1 <- plot_ly(z = ~cp1$matfit, y= ejey) %>% 
+  add_surface(colorbar = list(title="Profitability")) %>% 
+  layout(
+    title = "The effect of global liquidity on the profitability of coal firms",
+    scene = list(
+      xaxis = list(title = "Lag"),
+      yaxis = list(title = "WIR"),
+      zaxis = list(title = "Profitability")
+    ))
+
+p1
+
+#library(viridis)
+#filled.contour(x=cp1$predvar,y=seq(cp1$lag[1],cp1$lag[2],cp1$bylag),
+#               z=cp1$matfit,axes=T, zlim = c(-0.1,0.1),xlab="WIR",color.palette = viridis,
+#               ylab="Lag", key.title={par(cex.main=0.9);title("Profitability")},
+#               main= "COAL", cex.main= 1.5)
+
+
+
+
+```
+
+
+---
+
+
+
+
+<div class="my-logo-right"></div>
+
+# Effect global liquidity on profitability
+
+
+```{r echo=FALSE, out.width = "100%" }
+knitr::include_graphics("img/contour.png")
+```
+
+
+---
+
+
+
+<div class="my-logo-right"></div>
+
+# Cumulative effect
+
+
+```{r echo=FALSE, out.width = "100%" }
+knitr::include_graphics("img/efecto_acum.png")
+```
+
+
+
+---
+
+name: Conclusion
+
+class: inverse, mline, center, middle
+<div class="my-logo-center"></div>
+
+
+
+# Conclusion
+
+
+---
+
+
+<div class="my-logo-right"></div>
+
+# Conclusion
+
+
+
+.left-column[
+
+.font400[1.]
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+.font400[2.]
+
+]
+
+.right-column[
+.font120[
+> We estimate the number of statistical factors that underlie profitability dynamics over time for the banking industry. Three factors are enough to describe 63.40%, 68% and 67.50% of ROE, ROA and EBITDA, respectively.
+
+<br>
+
+<hr>
+
+<br>
+
+> The numbers increase according to bank size, which indicates that, as expected, the larger the bank is, the more cyclically it behaves.
+
+]
+]
+
+
+???
+
+•	Diapositiva 24 - 25 – Conclusions
+
+1)
+We estimate the number of statistical factors that underlie profitability dynamics over time for the banking industry. Three factors are enough to describe 63.40%, 68% and 67.50% of ROE, ROA and EBITDA, respectively.
+
+
+2)
+The numbers increase according to bank size, which indicates that, as expected, the larger the bank is, the more cyclically it behaves.
+
+
+---
+
+
+
+
+<div class="my-logo-right"></div>
+
+# Conclusion
+
+
+
+.left-column[
+
+.font400[3.]
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+.font400[4.]
+
+]
+
+.right-column[
+.font120[
+> Our results indicate that these three statistical factors are mainly related to
+ - `households’ financial burden and economic activity`
+ - `households’ income and employment` 
+ - `commercial loans`
+
+<div style="line-height:5%;">
+    <br>
+</div>
+
+
+<hr>
+
+
+<br>
+
+
+> We provide a means to monitor profitability in the banking industry from an integrative perspective by establishing rankings of the financial institutions according to their exposure (either positive or negative) to the three market forces that we identify.
+
+]
+]
+
+???
+
+•	Diapositiva 26 – Conclusions
+
+3)
+
+Our results indicate that these three statistical factors are mainly related to:
+
+- households’ financial burden and economic activity
+- households’ income and employment
+- commercial loans
+
+
+4)
+We provide a means to monitor profitability in the banking industry from an integrative perspective by establishing rankings of the financial institutions according to their exposure (either positive or negative) to the three market forces that we identify.
+
+---
+
+
+
+<div class="my-logo-right"></div>
+
+# Conclusion
+
+
+
+.left-column[
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+.font400[5.]
+
+
+
+]
+
+.right-column[
+
+<br>
+<br>
+<br>
+
+
+<hr>
+
+<br>
+
+.font120[
+> Given that our results seem more relevant for large banks than for small banks, it could be that for banks outside of our sample, which are even smaller, the results lack the same validity.
+
+<br>
+
+<hr>
+
+
+]
+]
+
+???
+
+•	Diapositiva 27 – Conclusions
+
+and.. finally...
+
+Given that our results seem more relevant for large banks than for small banks, it could be that for banks outside of our sample, which are even smaller, the results lack the same validity.
+
+
+
+
+---
+
+
+<div class="my-logo-right"></div>
+
+# References
+
+`r anicon::faa("book", animate = "passing")` Asimakopoulos, I., Samitas, A., and Papadogonas, T. (2009). Firm-specific and economy wide determinants of firm profitability: Greek evidence using panel data. Managerial Finance, 35(11). https://doi.org/10.1108/03074350910993818
+
+
+`r anicon::faa("book", animate = "passing")` Claver, E., Molina, J., and Tari, J. (2002). Firm and industry effects on firm profitability: A spanish empirical analysis. European Management Journal, 20(3). https://doi.org/10.1016/S0263-2373(02)00048-8
+
+
+`r anicon::faa("book", animate = "passing")` Díez-Esteban, J. M., García-Gómez, C. D., López-Iturriaga, F. J., and Santamaría-Mariscal, M. (2017). Corporate risk-taking, returns and the nature of major shareholders: Evidence from prospect theory. Research in International Business and Finance, 42(July), 900–911. https://doi.org/10.1016/j.ribaf.2017.07.025
+
+
+`r anicon::faa("book", animate = "passing")` Gasparrini, A. (2011). Distributed lag linear and non-linear models in R: The package dlnm. Journal of Statistical Software, 43(8). https://doi.org/10.18637/jss.v043.i08
+
+
+`r anicon::faa("book", animate = "passing")` Gupta, K., and Krishnamurti, C. (2018). Do macroeconomic conditions and oil prices influence corporate risk-taking? Journal of Corporate Finance, 53(June), 65–86. https://doi.org/10.1016/j.jcorpfin.2018.10.003
+
+
+`r anicon::faa("book", animate = "passing")` Hammoudeh, S., Nguyen, D. K., and Sousa, R. M. (2015). US monetary policy and sectoral commodity prices. Journal of International Money and Finance, 57, 61–85. https://doi.org/10.1016/j.jimonfin.2015.06.003
+
+`r anicon::faa("book", animate = "passing")` Hotelling, H. (1933). Analysis of a complex of statistical variables into principal components. Journal of Educational Psychology, 24(6). https://doi.org/10.1037/h0071325
+
+
+---
+
+<div class="my-logo-right"></div>
+
+# References
+
+
+`r anicon::faa("book", animate = "passing")` Jolliffe, M. (1986). Principal Component Analysis. Springer-Verlag.
+
+
+`r anicon::faa("book", animate = "passing")` Lawley, D. N., and Maxwell, A. E. (1971). Factor Analysis as a Statistical Method (2nd Edition). Butterworths.
+
+
+`r anicon::faa("book", animate = "passing")` Ratti, R. A., and Vespignani, J. L. (2016). Oil prices and global factor macroeconomic variables. Energy Economics, 59, 198–212. https://doi.org/10.1016/j.eneco.2016.06.002
+
+
+`r anicon::faa("book", animate = "passing")` Schmidt, T. S., Steffen, B., Egli, F., Pahle, M., Tietjen, O., and Edenhofer, O. (2019). Adverse effects of rising interest rates on sustainable energy transitions. Nature Sustainability, 2(9), 879–885. https://doi.org/10.1038/s41893-019-0375-2
+
+
+`r anicon::faa("book", animate = "passing")` Sutherland, B. R. (2019). Susceptibility of Renewables to Interest Rates. Joule, 3(11), 2597–2599. https://doi.org/10.1016/j.joule.2019.11.003
+
+
+`r anicon::faa("book", animate = "passing")` Wieczorek-Kosmala, M., Błach, J., and Gorzeń-Mitka, I. (2021). Does capital structure drive profitability in the energy sector? Energies, 14(16), 1–15. https://doi.org/10.3390/en14164803
+
+
+`r anicon::faa("book", animate = "passing")` Yao, F., Müller, H. G., and Wang, J. L. (2005). Functional data analysis for sparse longitudinal data. Journal of the American Statistical Association, 100(470). https://doi.org/10.1198/016214504000001745.
+
+
+---
+
+
+class: inverse, mline, center, bottom
+
+<div class="my-logo-center"></div>
+
+
+# Thanks !!!
+
+<br>
+<br>
+
+
+
+
+`r anicon::faa("envelope", animate = "passing")` orlando.joaqui@correounivalle.edu.co .font140[**|**] `r anicon::faa("envelope", animate = "passing")` diego.manotas@correounivalle.edu.co .font140[**|**] `r anicon::faa("envelope", animate = "passing")` juribeg@uoc.edu
+
+<br>
+<br>
+<br>
+<br>
+
+???
+
+•	Diapositiva 31 – Thanks
+
+Thank you very much for your attention. Again, I apologize for my imperfect pronunciation.
+
+
+
+
