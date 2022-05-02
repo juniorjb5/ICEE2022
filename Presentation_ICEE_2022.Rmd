@@ -100,15 +100,14 @@ Universitat Oberta de Catalunya
 
 •	Diapositiva 1 - Saludo
 
-Good afternoon everyone, it is a pleasure to be here and share with you virtually.
-My name is Orlando Joaqui Barandica, I am a doctoral student at Universidad del Valle in Colombia.
-Today I will talk about Commonality, macroeconomic factors and bank profitability. In advance, I apologize for my English, I am in the process of strengthening my speaking and my listening.
+Hello, Good afternoon. Thank you very much for attending my presentation. It is a pleasure to be here and share with you.
+Today, I'm going to talk about Global liquidity and the profitability of energy firms. In advance, I apologize for my English.
+
 
 
 •	Diapositiva 2 – Autores
 
-This research is carried out in conj(y)unction with my thesis supervisors, Professor Diego Manotas from the Universidad del Valle, and Professor Jorge M. Uribe from the Universidad Oberta de Cataluña.
-
+This research is carried out in conjunction with my thesis supervisors, Professor Diego Manotas from the Universidad del Valle, and Professor Jorge M. Uribe from the Universidad Oberta de Cataluña.
 
 
 
@@ -151,9 +150,11 @@ class: contenido
 
 •	Diapositiva 3 – Contenido
 
-This is the content that we will have today: We will start with a short introduction to the research topic.
+This is the content that I will expose today: We will begin with a brief introduction or motivation to the research topic.
 
-Later I will present some consulted works on bank profitability. We will continue with the methodology carried out in the empirical work and we will end with the results and conclusions of the investigation.
+
+Secondly, I will present some works consulted on energy profitability. Subsequently, I will present the methodology carried out in the empirical work and, finally, I will show the results and conclusions of the research.
+
 
 
 
@@ -203,13 +204,23 @@ class: inverse, mline, center, middle
 
 ]
 
+
+???
+
+Talking a little about the motivation for this work... we have...
+
+Understanding the causes or generation of company profitability has always been a topic of interest in the academic and business world. Although, different companies may in turn present different causes or events that determine their profitability, depending on the structure of their operations or composition of assets. We could mainly identify two foci of the determinants.
+
+In the first place, the internal determinants are associated with the characteristics of the companies. And secondly, the external determinants are associated with aspects that are not controlled by the company's management but that clearly influence decision-making or management strategies.
+
+
 ---
 
 
 <div class="my-logo-right"></div>
 
 
-# Introduction
+# Motivation
 
 .left-column[
 
@@ -252,6 +263,11 @@ Identifying the determinants of profitability and anticipating its fluctuations 
 
 ???
 
+The importance of profitability lies in its relevance as an indicator of efficient management in terms of utility and benefit for companies. Although the companies in the energy sector have a similarity in terms of their purpose of generating energy, the source of generation causes certain differences in the type of operation and management strategies to maximize the value of the companies.
+
+It is here in administration or decision-making that the understanding of internal or external phenomena that can affect companies becomes vital.
+
+Internal or idiosyncratic characteristics can be firms'  age, or size, financial leverage, etc., and the external determinants can be fuel prices, interest rates, exchange rates, economic activity, etc. Many other internal and external measurable characteristics can be listed.
 
 
 
@@ -288,7 +304,11 @@ Identifying the determinants of profitability and anticipating its fluctuations 
 ???
 
 
+Currently, in the face of different changes in economic cycles driven by different acceleration or deceleration behaviors, changes in commodity prices, even wars and pandemics,... These events cause monetary regulators to make the decision to control liquidity in order to stimulate the economy or not.. Obviously, companies in the energy sector are no strangers to these movements, much less management decisions on profitability.
 
+Here we analyze the external determinants of the profitability of energy companies and, in particular, the effect of global liquidity on the profitability of companies belonging to different energy subsectors.
+
+Where, our working hypothesis is that changes in global interest rates have important effects on the financial operation of large energy companies.
 
 
 ---
@@ -410,6 +430,18 @@ subtitle = md("Authors")
 
 ]
 
+
+???
+
+All companies are exposed to changes in global liquidity. However, the profitability response of companies in the different energy subsectors can be very different due to the different activities carried out by energy companies.
+
+In the case of oil, coal or gas companies, for example Ratti and Vespignani (2016) (tueny-sixtin), Hammoudeh et al. (2015)(tueny-fivetin), Díez-Esteban et al (2017)(tueny seventin) show that variations in interest rates affect the prices of raw materials, mainly the price of oil and raw materials, an issue that modifies the profitability of companies.
+
+In the renewable energy sector, authors such as Sutherland (2019)(tueny ninetin), Schmidt et al (2019)(tuenyninetin) show that interest rates have an effect on economic stimuli and subsidies. These implications affect decision-making to maximize the value of companies.
+
+Other aspects that influence profitability beyond the energy sector are aspects of size, sales and investments.
+
+
 ---
 
 name: Methodology
@@ -463,7 +495,13 @@ About the methodology and the data, we have:
 
 ???
 
+We have structured 3 methodological stages.
 
+First, we construct a common factor from different developed market interest rates. This factor is called the world interest rate and is our indicator of global liquidity.
+
+Second, we estimate a common factor of return for firms in each subsector. We do this using Principal Functional Component Analysis
+
+Third, we measure the effect of global liquidity on returns using the nonlinear distributed lag model.
 
 
 
@@ -520,7 +558,7 @@ w_p
 
 ???
 
-
+Explaining a little our methodology. The technique used for the construction of WIR is the analysis of principal components, which allows us to generate, through a linear combination, a component that summarizes a large part of the variability of interest rates in the developed markets.
 
 ---
 
@@ -558,7 +596,7 @@ where ${\hat{{\Sigma}}}_i=\ {\hat{{G}}}_i+\sigma^2{I}$, and ${\tilde{{Y}}}_i=\le
 ???
 
 
-
+Below, we use Functional Principal Component Analysis due to the characteristics of our profitability data. Here we estimate the functional components for each subsector, where, We assume that the profitability of companies responds to a common underlying process.
 
 
 ---
@@ -586,7 +624,7 @@ where $\mu\equiv E(\hat{\xi})$, $g$ is a monotonic link function. The function $
 
 ???
 
-
+Finally, we relate our global interest rate factor and the functional components of return in the DLN model. This model allows the construction of a response surface where the effects of the WIR on profitability are represented. An advantage of this analysis is to observe the effect through the lags of the predictor variable.
 
 ---
 
@@ -719,6 +757,24 @@ fig.mapamundi
 ]
 
 
+
+???
+
+Our data on the profitability of energy companies and the macroeconomic interest rate environment come from two different sources.
+
+We use ROA, this is Return on Assets, ROA measures the operating efficiency of a company regardless of its financial structure. This is calculated by dividing a company's net income before financing costs by total assets.
+
+We have a total of 536 companies, with a greater participation of Oil and Gas companies, then companies related to equipment and services, renewable energies, coal and uranium.
+
+
+
+Regarding global liquidity information, we use short and long-term interest rates for 21 countries of developed economies.
+
+
+
+Finally, we present the distribution of the 536 companies in our sample. The US and Canada stand out with 255 and 114 respectively. This map allows visualizing that geographically our sample is well distributed.
+
+
 ---
 
 
@@ -748,6 +804,16 @@ RESULTSSS
 knitr::include_graphics("img/WIR.png")
 ```
 
+???
+
+Looking at the results...
+
+
+This figure shows the first component (black line). It explains 82.8% of the variability in the dataset and captures general market movements. Our series of interest rates as well as our estimated factor are centered.
+
+Subsequently, this figure is the result of the DLN model. Here, we present the response surface which has 3 dimensions. Profitability, WIR and Lag.
+
+
 
 
 ---
@@ -759,7 +825,7 @@ knitr::include_graphics("img/WIR.png")
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.height= "100%", out.width="100%"  }
 
 
-cp1<-readRDS("RDS/cp1_coal.RDS")
+cp1<-readRDS("RDS/28abr.cp1_coal.RDS")
 #cp2<-readRDS("RDS/cp1_oil.RDS")
 #cp3<-readRDS("RDS/cp1_oil_es.RDS")
 #cp4<-readRDS("RDS/cp1_renewable.RDS")
@@ -794,6 +860,12 @@ p1
 ```
 
 
+???
+
+
+In this case, we can see that the strongest effects occur when WIR is negative. Also, we can see how the effect changes over the delays. But, reading these graphs in 3d is usually somewhat complex. That is why it is better to present contour plots.
+
+
 ---
 
 
@@ -808,29 +880,15 @@ p1
 knitr::include_graphics("img/contour.png")
 ```
 
+???
 
----
+Here we can compare the behavior of the estimated effect for each subsector. We point out that the effect is not symmetric, that is, the behavior when the WIR decreases is not the same when the WIR increases.
 
-# Interpretación de lo anterior (Esto no va..)
-
-**COAL**
-Cuando la WIR disminuye de manera extrema, es decir hay un aumento en la liquidez global, las empresas de coal perciben un efecto positivo sobre la rentabilidad de manera instantánea. Después de unos trimestres (3 en adelante), este efecto se invierte y se perciben efectos negativos sobre la rentabilidad.
-
-**OIL & GAS**
-Cuando la WIR disminuye y principalmente de manera extrema, es decir hay un aumento en la liquidez global, las empresas de oil & gas perciben un efecto negativo muy fuerte sobre la rentabilidad de manera instantánea y se prolonga por los siguientes tres a cuatro trimestres. Después de unos trimestres (6 en adelante), este efecto se invierte y se perciben efectos positivos sobre la rentabilidad.
-
-**OIL & GAS (Equipment and services)**
-Cuando la WIR disminuye de manera extrema, es decir hay un aumento en la liquidez global, las empresas de oil & gas (Equipos y servicios) perciben un pequeño efecto negativo sobre la rentabilidad de manera instantánea y en el siguiente trimestre. De manera general, este subsector no percibe grandes efectos ante variaciones en la liquidez mundial.
-
-**RENEWABLE**
-Cuando la WIR disminuye de manera extrema, es decir hay un aumento en la liquidez global, las empresas de energía renovables perciben un efecto negativo sobre la rentabilidad de manera instantánea y en el siguiente trimestre.
-
-**URANIUM**
-Cuando la WIR disminuye de manera extrema, es decir hay un aumento en la liquidez global, las empresas de energía de Uranio perciben un pequeño efecto negativo sobre la rentabilidad de manera instantánea. Posterior al segundo trimestre existe un efecto positivo sobre la rentabilidad.
-
+We can identify that the Oil and Gas sector is the most sensitive in the first lags to increases in global liquidity.
 
 
 ---
+
 
 
 <div class="my-logo-right"></div>
