@@ -887,11 +887,17 @@ Here we can compare the behavior of the estimated effect for each subsector. We 
 We can identify that the Oil and Gas sector is the most sensitive in the first lags to increases in global liquidity.
 
 
----
+
+This figure presents contour plots that summarize the response of ROA to changes in global liquidity in different energy subsectors. In general, we find that decreases in the world interest rate (WIR) are associated with higher profitability in all sectors, except for uranium. For the coal subsector, the figure shows that the main effect on profitability occurs over the first two quarters, after which the shock stabilizes. In the case where the WIR increases, slight tendencies to increase profitability are observed in the equipment and services of Oil and Gas, but the effect is not strong. 
+
+
+The profitability of firms in the oil & gas subsector shows a strong positive response to an increase in global liquidity (remember.. decreases in WIR represent increases in the global liquidity), especially between the first and second quarters. In the case of companies in the renewable subsector, profitability increases around the second quarter after a liquidity shock. This subsector responds more slowly if global liquidity increases compared to the rest of the subsectors. Finally, uranium firms present a significantly different behavior in the tails of the distribution. That is, both increases and decreased extremes in global liquidity affect reduce profitability.   
 
 
 
-<div class="my-logo-right"></div>
+
+
+<!-- <div class="my-logo-right"></div>
 
 # Cumulative effect
 
@@ -899,6 +905,8 @@ We can identify that the Oil and Gas sector is the most sensitive in the first l
 ```{r echo=FALSE, out.width = "100%" }
 knitr::include_graphics("img/efecto_acum.png")
 ```
+
+--> 
 
 ---
 
@@ -940,7 +948,9 @@ class: inverse, mline, center, middle
 
 .right-column[
 .font120[
-> El efecto de la liquidez global sobre la rentabilidad de las empresas de energía es completamente no lineal, es decir asimétrico.
+> The effect of global liquidity on the profitability of energy companies is asymmetric.
+
+<br>
 
 <br>
 
@@ -948,7 +958,8 @@ class: inverse, mline, center, middle
 
 <br>
 
-> La rentabilidad de las empresas energéticas se ve afectada de manera diferente según su subsector respecto a la liquidez global.
+
+> The profitability of energy companies is affected differently depending on their sub-sector relative to global liquidity.
 
 ]
 ]
@@ -956,7 +967,11 @@ class: inverse, mline, center, middle
 
 ???
 
+The effect of global liquidity on the profitability of energy companies is completely non-linear, that is, asymmetric.
 
+
+
+The profitability of energy companies is affected differently depending on their sub-sector relative to global liquidity... ehmm, This is mainly due to the financing structure of the companies.
 
 
 ---
@@ -987,29 +1002,31 @@ class: inverse, mline, center, middle
 
 .right-column[
 .font120[
-> Aumentos en la liquidez global, i.e., WIR negativa, presentan efectos más fuertes en la rentabilidad, pero estos no son persitentes en el tiempo.
+> Increases in global liquidity, i.e., negative WIR, present stronger effects on profitability, but these are not persistent over time.
 
-]
+<br>
 
-<div style="line-height:5%;">
-    <br>
-</div>
-
+<br>
 
 <hr>
-
 
 <br>
 
 
-> La disminución en las tasas de interés implica la intervención de diferentes autoridades monetarias para impulsar la liquidez, respaldar el crecimiento económico y restaurar la estabilidad financiera. Empresas como oil & gas que su rentabilidad depende principalmente de los precios del oil and gas, muestran que, ante tasas de interés bajas el efecto contemporáneo sobre la rentabilidad es negativo. Esto principalmente por condiciones de bajo precio en las materias primas, desaceleración en la economía, etc. Solamente después del segundo o tercer trimestre empieza a aumentar positivamente el efecto sobre la rentabilidad.
+> Uranium companies show strong positive effects on profitability given changes in global liquidity (ie negative WIR). 
+
+]
 
 ]
 
 
 ???
 
+Increases in global liquidity, i.e., negative WIR, present stronger effects on profitability, but these are not persistent over time. We were able to identify that the impact on profitability is observed mainly during the first and third quarters.
 
+
+
+Uranium companies show strong positive effects on profitability given changes in global liquidity (ie negative WIR). It is important to delve into the financial and equity structure of these companies.
 
 ---
 
@@ -1040,7 +1057,7 @@ class: inverse, mline, center, middle
 
 <br>
 <br>
-<br>
+
 
 
 <hr>
@@ -1048,21 +1065,21 @@ class: inverse, mline, center, middle
 <br>
 
 .font120[
-> Las empresas de Uranium muestran efectos positivos fuertes sobre la rentabilidad ante aumentos en la liquidez mundial (i.e., WIR negativa).
-Las empresas de energías renovables y oil & gas relacionadas con equipment and services son menos sensibles ante las variaciones en la liquidez mundial.
+> We show that the decrease in interest rates by the different monetary authorities boosts liquidity and, in turn, the profitability of energy companies. This supports economic growth and restores financial stability.
 
+]
 
 <br>
 
 <hr>
 
 
-]
+
 ]
 
 ???
 
-
+We show that the decrease in interest rates by the different monetary authorities boosts liquidity and, in turn, the profitability of energy companies. This supports economic growth and restores financial stability.
 
 ---
 
