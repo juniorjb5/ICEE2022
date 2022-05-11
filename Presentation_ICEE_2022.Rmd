@@ -107,53 +107,55 @@ Today, I'm going to talk about Global liquidity and the profitability of energy 
 
 •	Diapositiva 2 – Autores
 
-This research is carried out in conjunction with my thesis supervisors, Professor Diego Manotas from the Universidad del Valle, and Professor Jorge M. Uribe from the Universidad Oberta de Cataluña.
+This research is carried out in conjunction with, Professor Diego Manotas from the Universidad del Valle, and Professor Jorge M. Uribe from the Universidad Oberta de Cataluña.
 
 
 
----
-
-class: contenido
-
-<div class="my-logo-right"></div>
+<!-- --- -->
 
 
-# Content
+
+<!-- class: contenido -->
+
+<!-- <div class="my-logo-right"></div> -->
 
 
-.pull-left[
-
-</br>
-
-###  `r icon::fa("circle-notch", animate = "spin")` [Motivation](#Motivation)
+<!-- # Content -->
 
 
-###  `r icon::fa("circle-notch", animate = "spin")` [Energy profitability literature](#Literature)
+<!-- .pull-left[ -->
+
+<!-- </br> -->
+
+<!-- ###  `r icon::fa("circle-notch", animate = "spin")` [Motivation](#Motivation) -->
 
 
-###  `r icon::fa("circle-notch", animate = "spin")` [Methodology & Data](#Methodology)
+<!-- ###  `r icon::fa("circle-notch", animate = "spin")` [Energy profitability literature](#Literature) -->
 
 
-###  `r icon::fa("circle-notch", animate = "spin")` [Results](#Results)
+<!-- ###  `r icon::fa("circle-notch", animate = "spin")` [Methodology & Data](#Methodology) -->
 
 
-###  `r icon::fa("circle-notch", animate = "spin")` [Conclusion](#Conclusion)
-
-]
-
-.pull.right[
-
-]
+<!-- ###  `r icon::fa("circle-notch", animate = "spin")` [Results](#Results) -->
 
 
-???
+<!-- ###  `r icon::fa("circle-notch", animate = "spin")` [Conclusion](#Conclusion) -->
 
-•	Diapositiva 3 – Contenido
+<!-- ] -->
 
-This is the content that I will expose today: We will begin with a brief introduction or motivation to the research topic.
+<!-- .pull.right[ -->
+
+<!-- ] -->
 
 
-Secondly, I will present some works consulted on energy profitability. Subsequently, I will present the methodology carried out in the empirical work and, finally, I will show the results and conclusions of the research.
+<!-- ??? -->
+
+<!-- •	Diapositiva 3 – Contenido -->
+
+<!-- This is the content that I will expose today: We will begin with a brief introduction or motivation to the research topic. -->
+
+
+<!-- Secondly, I will present some works consulted on energy profitability. Subsequently, I will present the methodology carried out in the empirical work and, finally, I will show the results and conclusions of the research. -->
 
 
 
@@ -169,7 +171,11 @@ class: inverse, mline, center, middle
 
 # Motivation
 
+???
 
+Diapo 3: Transición
+
+Talking a little about the motivation for this work... we have...
 
 ---
 
@@ -207,7 +213,9 @@ class: inverse, mline, center, middle
 
 ???
 
-Talking a little about the motivation for this work... we have...
+Diapo 4: Motivación
+
+
 
 Understanding the causes or generation of company profitability has always been a topic of interest in the academic and business world. Although, different companies may in turn present different causes or events that determine their profitability, depending on the structure of their operations or composition of assets. We could mainly identify two foci of the determinants.
 
@@ -263,6 +271,8 @@ Identifying the determinants of profitability and anticipating its fluctuations 
 
 ???
 
+Diapo 5: Motivación
+
 The importance of profitability lies in its relevance as an indicator of efficient management in terms of utility and benefit for companies. Although the companies in the energy sector have a similarity in terms of their purpose of generating energy, the source of generation causes certain differences in the type of operation and management strategies to maximize the value of the companies.
 
 It is here in administration or decision-making that the understanding of internal or external phenomena that can affect companies becomes vital.
@@ -303,6 +313,7 @@ Internal or idiosyncratic characteristics can be firms'  age, or size, financial
 
 ???
 
+Diapo 6: Motivación
 
 Currently, in the face of different changes in economic cycles driven by different acceleration or deceleration behaviors, changes in commodity prices, even wars and pandemics,... These events cause monetary regulators to make the decision to control liquidity in order to stimulate the economy or not.. Obviously, companies in the energy sector are no strangers to these movements, much less management decisions on profitability.
 
@@ -325,6 +336,8 @@ class: inverse, mline, center, middle
 
 
 ???
+
+Diapo 7: Transición
 
 Regarding the literature review, we have the following:
 
@@ -433,6 +446,8 @@ subtitle = md("Authors")
 
 ???
 
+Diapo 8: Literatura
+
 All companies are exposed to changes in global liquidity. However, the profitability response of companies in the different energy subsectors can be very different due to the different activities carried out by energy companies.
 
 In the case of oil, coal or gas companies, for example Ratti and Vespignani (2016) (tueny-sixtin), Hammoudeh et al. (2015)(tueny-fivetin), Díez-Esteban et al (2017)(tueny seventin) show that variations in interest rates affect the prices of raw materials, mainly the price of oil and raw materials, an issue that modifies the profitability of companies.
@@ -454,6 +469,8 @@ class: inverse, mline, center, middle
 # Methodology & Data
 
 ???
+
+Diapo 9: Transición
 
 About the methodology and the data, we have:
 
@@ -495,13 +512,15 @@ About the methodology and the data, we have:
 
 ???
 
+Diapo 10: Metodología
+
 We have structured 3 methodological stages.
 
 First, we construct a common factor from different developed market interest rates. This factor is called the world interest rate and is our indicator of global liquidity.
 
-Second, we estimate a common factor of return for firms in each subsector. We do this using Principal Functional Component Analysis
+Second, we estimate a common factor of profitability for firms in each subsector. We do this using Principal Functional Component Analysis
 
-Third, we measure the effect of global liquidity on returns using the nonlinear distributed lag model.
+Third, we measure the effect of global liquidity on profitability using the nonlinear distributed lag model.
 
 
 
@@ -558,6 +577,8 @@ w_p
 
 ???
 
+Diapo 11: Metodología
+
 Explaining a little our methodology. The technique used for the construction of WIR is the analysis of principal components, which allows us to generate, through a linear combination, a component that summarizes a large part of the variability of interest rates in the developed markets.
 
 ---
@@ -595,6 +616,7 @@ where ${\hat{{\Sigma}}}_i=\ {\hat{{G}}}_i+\sigma^2{I}$, and ${\tilde{{Y}}}_i=\le
 
 ???
 
+Diapo 12: Metodología
 
 Below, we use Functional Principal Component Analysis due to the characteristics of our profitability data. Here we estimate the functional components for each subsector, where, We assume that the profitability of companies responds to a common underlying process.
 
@@ -624,7 +646,9 @@ where $\mu\equiv E(\hat{\xi})$, $g$ is a monotonic link function. The function $
 
 ???
 
-Finally, we relate our global interest rate factor and the functional components of return in the DLN model. This model allows the construction of a response surface where the effects of the WIR on profitability are represented. An advantage of this analysis is to observe the effect through the lags of the predictor variable.
+Diapo 13: Metodología
+
+Finally, we relate our global interest rate factor and the functional components of profitability in the DLN model. This model allows the construction of a response surface where the effects of the WIR on profitability are represented. An advantage of this analysis is to observe the effect through the lags of the predictor variable.
 
 ---
 
@@ -760,6 +784,8 @@ fig.mapamundi
 
 ???
 
+Diapo 14: Data
+
 Our data on the profitability of energy companies and the macroeconomic interest rate environment come from two different sources.
 
 We use ROA, this is Return on Assets, ROA measures the operating efficiency of a company regardless of its financial structure. This is calculated by dividing a company's net income before financing costs by total assets.
@@ -789,7 +815,9 @@ class: inverse, mline, center, middle
 
 ???
 
-RESULTSSS
+Diapo 15: Transición
+
+Looking at the results...
 
 ---
 
@@ -806,12 +834,13 @@ knitr::include_graphics("img/WIR.png")
 
 ???
 
-Looking at the results...
+Diapo 16: Results
+
 
 
 This figure shows the first component (black line). It explains 82.8% of the variability in the dataset and captures general market movements. Our series of interest rates as well as our estimated factor are centered.
 
-Subsequently, this figure is the result of the DLN model. Here, we present the response surface which has 3 dimensions. Profitability, WIR and Lag.
+
 
 
 
@@ -862,6 +891,9 @@ p1
 
 ???
 
+Diapo 17: Results
+
+Subsequently, this figure is the result of the DLN model. Here, we present the response surface which has 3 dimensions. Profitability, WIR and Lag.
 
 In this case, we can see that the strongest effects occur when WIR is negative. Also, we can see how the effect changes over the delays. But, reading these graphs in 3d is usually somewhat complex. That is why it is better to present contour plots.
 
@@ -881,6 +913,8 @@ knitr::include_graphics("img/contour.png")
 ```
 
 ???
+
+Diapo 18: Results
 
 Here we can compare the behavior of the estimated effect for each subsector. We point out that the effect is not symmetric, that is, the behavior when the WIR decreases is not the same when the WIR increases.
 
@@ -919,8 +953,13 @@ class: inverse, mline, center, middle
 
 
 
-# Conclusion
+# Conclusions
 
+???
+
+Diapo 19: Transición
+
+Now, in the conclusions we have..
 
 ---
 
@@ -966,6 +1005,8 @@ class: inverse, mline, center, middle
 
 
 ???
+
+Diapo 20: Conclusiones
 
 The effect of global liquidity on the profitability of energy companies is completely non-linear, that is, asymmetric.
 
@@ -1021,6 +1062,8 @@ The profitability of energy companies is affected differently depending on their
 
 
 ???
+
+Diapo 21: Conclusiones
 
 Increases in global liquidity, i.e., negative WIR, present stronger effects on profitability, but these are not persistent over time. We were able to identify that the impact on profitability is observed mainly during the first and third quarters.
 
@@ -1079,6 +1122,8 @@ Uranium companies show strong positive effects on profitability given changes in
 
 ???
 
+Diapo 22: Conclusiones
+
 We show that the decrease in interest rates by the different monetary authorities boosts liquidity and, in turn, the profitability of energy companies. This supports economic growth and restores financial stability.
 
 ---
@@ -1108,6 +1153,12 @@ We show that the decrease in interest rates by the different monetary authoritie
 `r anicon::faa("book", animate = "passing")` Hotelling, H. (1933). Analysis of a complex of statistical variables into principal components. Journal of Educational Psychology, 24(6). https://doi.org/10.1037/h0071325
 
 
+???
+
+Diapo 23: References
+
+These the references about our work.
+
 ---
 
 <div class="my-logo-right"></div>
@@ -1135,6 +1186,9 @@ We show that the decrease in interest rates by the different monetary authoritie
 
 `r anicon::faa("book", animate = "passing")` Yao, F., Müller, H. G., and Wang, J. L. (2005). Functional data analysis for sparse longitudinal data. Journal of the American Statistical Association, 100(470). https://doi.org/10.1198/016214504000001745.
 
+???
+
+Diapo 24: References
 
 ---
 
@@ -1161,7 +1215,7 @@ class: inverse, mline, center, bottom
 
 ???
 
-•	Diapositiva 31 – Thanks
+•	Diapositiva 25 – Thanks
 
 Thank you very much for your attention. Again, I apologize for my imperfect pronunciation.
 
