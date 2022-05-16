@@ -160,22 +160,25 @@ This research is carried out in conjunction with, Professor Diego Manotas from t
 
 
 
----
+<!-- --- -->
 
-name: Motivation
+<!--name: Motivation -->
 
-class: inverse, mline, center, middle
-<div class="my-logo-center"></div>
+<!-- class: inverse, mline, center, middle -->
+<!-- <div class="my-logo-center"></div> -->
 
 
 
-# Motivation
+<!-- # Motivation -->
 
-???
+<!-- ??? -->
 
-Diapo 3: Transición
+<!-- Diapo 3: Transición -->
 
-Talking a little about the motivation for this work... we have...
+<!-- Talking a little about the motivation for this work... we have... -->
+
+
+
 
 ---
 
@@ -322,7 +325,7 @@ Here we analyze the external determinants of the profitability of energy compani
 Where, our working hypothesis is that changes in global interest rates have important effects on the financial operation of large energy companies.
 
 
----
+<!-- ---
 
 
 name: Literature
@@ -335,13 +338,13 @@ class: inverse, mline, center, middle
 # Energy profitability literature
 
 
-???
+#???
 
 Diapo 7: Transición
 
 Regarding the literature review, we have the following:
 
-
+-->
 ---
 
 
@@ -457,7 +460,7 @@ In the renewable energy sector, authors such as Sutherland (2019)(tueny ninetin)
 Other aspects that influence profitability beyond the energy sector are aspects of size, sales and investments.
 
 
----
+<!-- ---
 
 name: Methodology
 
@@ -468,12 +471,13 @@ class: inverse, mline, center, middle
 
 # Methodology & Data
 
-???
+#???
 
 Diapo 9: Transición
 
 About the methodology and the data, we have:
 
+-->
 
 ---
 
@@ -525,7 +529,7 @@ Third, we measure the effect of global liquidity on profitability using the nonl
 
 
 
----
+<!-- ---
 
 
 
@@ -575,13 +579,15 @@ w_p
 ]
 
 
-???
+#???
 
 Diapo 11: Metodología
 
 Explaining a little our methodology. The technique used for the construction of WIR is the analysis of principal components, which allows us to generate, through a linear combination, a component that summarizes a large part of the variability of interest rates in the developed markets.
 
----
+-->
+
+<!-- ---
 
 
 <div class="my-logo-right"></div>
@@ -614,12 +620,14 @@ where ${\hat{{\Sigma}}}_i=\ {\hat{{G}}}_i+\sigma^2{I}$, and ${\tilde{{Y}}}_i=\le
 ]
 
 
-???
+#???
 
 Diapo 12: Metodología
 
 Below, we use Functional Principal Component Analysis due to the characteristics of our profitability data. Here we estimate the functional components for each subsector, where, We assume that the profitability of companies responds to a common underlying process.
 
+
+-->
 
 ---
 
@@ -801,7 +809,7 @@ Regarding global liquidity information, we use short and long-term interest rate
 Finally, we present the distribution of the 536 companies in our sample. The US and Canada stand out with 255 and 114 respectively. This map allows visualizing that geographically our sample is well distributed.
 
 
----
+<!-- ---
 
 
 name: Results
@@ -813,12 +821,13 @@ class: inverse, mline, center, middle
 
 # Results
 
-???
+#???
 
 Diapo 15: Transición
 
 Looking at the results...
 
+-->
 ---
 
 
@@ -942,7 +951,7 @@ knitr::include_graphics("img/efecto_acum.png")
 
 --> 
 
----
+<!-- ---
 
 
 
@@ -955,11 +964,13 @@ class: inverse, mline, center, middle
 
 # Conclusions
 
-???
+#???
 
 Diapo 19: Transición
 
 Now, in the conclusions we have..
+
+-->
 
 ---
 
