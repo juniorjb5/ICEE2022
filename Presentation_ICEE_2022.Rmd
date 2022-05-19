@@ -216,11 +216,15 @@ This research is carried out in conjunction with, Professor Diego Manotas from t
 
 ???
 
-Diapo 4: Motivación
+Diapo 3: Motivación
 
 
 
-Understanding the causes or generation of company profitability has always been a topic of interest in the academic and business world. Although, different companies may in turn present different causes or events that determine their profitability, depending on the structure of their operations or composition of assets. We could mainly identify two foci of the determinants.
+Understanding the causes or generation of company profitability is a topic of interest in the academic and business world. 
+
+Although, different companies may in turn present different causes or events that determine their profitability, depending on the structure of assets, or financial structure or operations or composition of assets. 
+
+We could mainly identify two foci of the determinants.
 
 In the first place, the internal determinants are associated with the characteristics of the companies. And secondly, the external determinants are associated with aspects that are not controlled by the company's management but that clearly influence decision-making or management strategies.
 
@@ -274,13 +278,14 @@ Identifying the determinants of profitability and anticipating its fluctuations 
 
 ???
 
-Diapo 5: Motivación
+Diapo 4: Motivación
 
-The importance of profitability lies in its relevance as an indicator of efficient management in terms of utility and benefit for companies. Although the companies in the energy sector have a similarity in terms of their purpose of generating energy, the source of generation causes certain differences in the type of operation and management strategies to maximize the value of the companies.
+The importance of profitability lies in its relevance as an indicator of efficient management in terms of utility and benefit for companies. It is here in administration or decision-making that the understanding of internal or external phenomena that can affect companies becomes vital.
 
-It is here in administration or decision-making that the understanding of internal or external phenomena that can affect companies becomes vital.
+In the case of the energy companies, we found a big difference in their composition, mainly by the sources of generation as to wind, water or solar. This generates different strategies to maximize the value of the companies due to their operation.
 
-Internal or idiosyncratic characteristics can be firms'  age, or size, financial leverage, etc., and the external determinants can be fuel prices, interest rates, exchange rates, economic activity, etc. Many other internal and external measurable characteristics can be listed.
+Different authors have identified Internal aspects or idiosyncratic characteristics as firms' age, or size, financial leverage, etc., and the external determinants can be fuel prices, interest rates, exchange rates, economic activity, etc. Many other internal and external measurable characteristics can be listed.
+
 
 
 
@@ -316,13 +321,12 @@ Internal or idiosyncratic characteristics can be firms'  age, or size, financial
 
 ???
 
-Diapo 6: Motivación
+Diapo 5: Motivación
 
-Currently, in the face of different changes in economic cycles driven by different acceleration or deceleration behaviors, changes in commodity prices, even wars and pandemics,... These events cause monetary regulators to make the decision to control liquidity in order to stimulate the economy or not.. Obviously, companies in the energy sector are no strangers to these movements, much less management decisions on profitability.
+We focus on analyzing the external determinants. Specifically the global liquidity that we measure from interest rates.
 
-Here we analyze the external determinants of the profitability of energy companies and, in particular, the effect of global liquidity on the profitability of companies belonging to different energy subsectors.
+Our working hypothesis is that changes in global interest rates have important effects on the financial operation of large energy companies.
 
-Where, our working hypothesis is that changes in global interest rates have important effects on the financial operation of large energy companies.
 
 
 <!-- ---
@@ -345,7 +349,8 @@ Diapo 7: Transición
 Regarding the literature review, we have the following:
 
 -->
----
+
+<!-- ---
 
 
 <div class="my-logo-right"></div>
@@ -449,16 +454,17 @@ subtitle = md("Authors")
 
 ???
 
-Diapo 8: Literatura
+Diapo 6: Literatura
 
-All companies are exposed to changes in global liquidity. However, the profitability response of companies in the different energy subsectors can be very different due to the different activities carried out by energy companies.
+All companies are exposed to changes in global liquidity. However, the profitability of companies in the different energy subsectors can be very different due to the different activities carried out by energy companies.
 
-In the case of oil, coal or gas companies, for example Ratti and Vespignani (2016) (tueny-sixtin), Hammoudeh et al. (2015)(tueny-fivetin), Díez-Esteban et al (2017)(tueny seventin) show that variations in interest rates affect the prices of raw materials, mainly the price of oil and raw materials, an issue that modifies the profitability of companies.
+In the case of oil, coal or gas companies, for example, different authors show that variations in interest rates affect the prices of raw materials, mainly the price of oil, an issue that modifies the profitability of companies.
 
-In the renewable energy sector, authors such as Sutherland (2019)(tueny ninetin), Schmidt et al (2019)(tuenyninetin) show that interest rates have an effect on economic stimuli and subsidies. These implications affect decision-making to maximize the value of companies.
+In the renewable energy sector, different authors show that interest rates have an effect on economic stimuli and subsidies. These implications affect decision-making to maximize the value of companies.
 
 Other aspects that influence profitability beyond the energy sector are aspects of size, sales and investments.
 
+-->
 
 <!-- ---
 
@@ -478,6 +484,7 @@ Diapo 9: Transición
 About the methodology and the data, we have:
 
 -->
+
 
 ---
 
@@ -516,13 +523,13 @@ About the methodology and the data, we have:
 
 ???
 
-Diapo 10: Metodología
+Diapo 6: Metodología
 
 We have structured 3 methodological stages.
 
-First, we construct a common factor from different developed market interest rates. This factor is called the world interest rate and is our indicator of global liquidity.
+First, we construct a common factor from different developed market interest rates. This factor is called the world interest rate and is our indicator of global liquidity. WIR in short form.
 
-Second, we estimate a common factor of profitability for firms in each subsector. We do this using Principal Functional Component Analysis
+Second, we estimate a common factor of profitability for firms in each subsector. We do this using Principal Functional Component Analysis.
 
 Third, we measure the effect of global liquidity on profitability using the nonlinear distributed lag model.
 
@@ -654,9 +661,9 @@ where $\mu\equiv E(\hat{\xi})$, $g$ is a monotonic link function. The function $
 
 ???
 
-Diapo 13: Metodología
+Diapo 7: Metodología
 
-Finally, we relate our global interest rate factor and the functional components of profitability in the DLN model. This model allows the construction of a response surface where the effects of the WIR on profitability are represented. An advantage of this analysis is to observe the effect through the lags of the predictor variable.
+In our main DLNM method, we relate our global interest rate factor and the functional components of profitability. This model allows the construction of a response surface where the effects of the WIR on profitability are represented. An advantage of this analysis is to observe the effect through the lags of the predictor variable.
 
 ---
 
@@ -792,21 +799,19 @@ fig.mapamundi
 
 ???
 
-Diapo 14: Data
+Diapo 8: Data
 
 Our data on the profitability of energy companies and the macroeconomic interest rate environment come from two different sources.
 
-We use ROA, this is Return on Assets, ROA measures the operating efficiency of a company regardless of its financial structure. This is calculated by dividing a company's net income before financing costs by total assets.
+We use ROA, which is Return on Assets, ROA measures the operating efficiency of a company.
 
-We have a total of 536 companies, with a greater participation of Oil and Gas companies, then companies related to equipment and services, renewable energies, coal and uranium.
-
-
-
-Regarding global liquidity information, we use short and long-term interest rates for 21 countries of developed economies.
+We have 536 companies, with greater participation of Oil and Gas companies, then, companies related to equipment and services, renewable energies, coal and uranium.
 
 
+We use short and long-term interest rates for 21 countries of developed economies regarding global liquidity information.
 
-Finally, we present the distribution of the 536 companies in our sample. The US and Canada stand out with 255 and 114 respectively. This map allows visualizing that geographically our sample is well distributed.
+
+Finally, we present the distribution of the companies in our sample. The US and Canada stand out with 255 and 114 respectively. This map allows visualizing that geographically our sample is well distributed.
 
 
 <!-- ---
@@ -843,7 +848,7 @@ knitr::include_graphics("img/WIR.png")
 
 ???
 
-Diapo 16: Results
+Diapo 9: Results
 
 
 
@@ -900,9 +905,9 @@ p1
 
 ???
 
-Diapo 17: Results
+Diapo 10: Results
 
-Subsequently, this figure is the result of the DLN model. Here, we present the response surface which has 3 dimensions. Profitability, WIR and Lag.
+Subsequently, this figure is the result of the DLNM method. Here, we present the response surface which has 3 dimensions. Profitability, WIR and Lag.
 
 In this case, we can see that the strongest effects occur when WIR is negative. Also, we can see how the effect changes over the delays. But, reading these graphs in 3d is usually somewhat complex. That is why it is better to present contour plots.
 
@@ -923,7 +928,7 @@ knitr::include_graphics("img/contour.png")
 
 ???
 
-Diapo 18: Results
+Diapo 11: Results
 
 Here we can compare the behavior of the estimated effect for each subsector. We point out that the effect is not symmetric, that is, the behavior when the WIR decreases is not the same when the WIR increases.
 
@@ -1017,7 +1022,7 @@ Now, in the conclusions we have..
 
 ???
 
-Diapo 20: Conclusiones
+Diapo 12: Conclusiones
 
 The effect of global liquidity on the profitability of energy companies is completely non-linear, that is, asymmetric.
 
@@ -1074,7 +1079,7 @@ The profitability of energy companies is affected differently depending on their
 
 ???
 
-Diapo 21: Conclusiones
+Diapo 13: Conclusiones
 
 Increases in global liquidity, i.e., negative WIR, present stronger effects on profitability, but these are not persistent over time. We were able to identify that the impact on profitability is observed mainly during the first and third quarters.
 
@@ -1133,11 +1138,11 @@ Uranium companies show strong positive effects on profitability given changes in
 
 ???
 
-Diapo 22: Conclusiones
+Diapo 14: Conclusiones
 
 We show that the decrease in interest rates by the different monetary authorities boosts liquidity and, in turn, the profitability of energy companies. This supports economic growth and restores financial stability.
 
----
+<!-- ---
 
 
 <div class="my-logo-right"></div>
@@ -1164,13 +1169,17 @@ We show that the decrease in interest rates by the different monetary authoritie
 `r anicon::faa("book", animate = "passing")` Hotelling, H. (1933). Analysis of a complex of statistical variables into principal components. Journal of Educational Psychology, 24(6). https://doi.org/10.1037/h0071325
 
 
+
 ???
 
-Diapo 23: References
+Diapo 16: References
 
 These the references about our work.
 
----
+--- -->
+
+
+<!--
 
 <div class="my-logo-right"></div>
 
@@ -1199,7 +1208,9 @@ These the references about our work.
 
 ???
 
-Diapo 24: References
+Diapo 17: References
+
+-->
 
 ---
 
@@ -1226,7 +1237,7 @@ class: inverse, mline, center, bottom
 
 ???
 
-•	Diapositiva 25 – Thanks
+•	Diapositiva 15 – Thanks
 
 Thank you very much for your attention. Again, I apologize for my imperfect pronunciation.
 
