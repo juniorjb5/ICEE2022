@@ -327,144 +327,8 @@ We focus on analyzing the external determinants. Specifically the global liquidi
 
 Our working hypothesis is that changes in global interest rates have important effects on the financial operation of large energy companies.
 
+---
 
-
-<!-- ---
-
-
-name: Literature
-
-class: inverse, mline, center, middle
-<div class="my-logo-center"></div>
-
-
-
-# Energy profitability literature
-
-
-#???
-
-Diapo 7: Transición
-
-Regarding the literature review, we have the following:
-
--->
-
-<!-- ---
-
-
-<div class="my-logo-right"></div>
-
-# Energy profitability literature
-
-.pull-left[
-
-
-.center[
-*All companies are exposed to changes in global liquidity.*
-]
-
-> Interest rates are associated with prices of raw materials, which affect both operating costs and sales `(Gupta and Krishnamurti, 2018)`.
-
-<br>
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.height= "100%", out.width="100%"  }
-
-library(datapasta)
-library(gt)
-library(tidyverse)
-library(glue)
-
-T1<-tibble::tribble(
-                                      ~" ",
-                 "* Ratti and Vespignani (2016)",
-                     "* Hammoudeh et al. (2015)",
-                  "* Díez-Esteban et al. (2017)",
-  ">>> Topic: Commodity prices (oil, coal, gas), Economic activity, oil prices"
-  )
-
-
-T1 %>% 
-  gt() %>% 
-tab_header(
-title = md("**Oil firms, Coal firms, Gas Firms**"),
-subtitle = md("Authors")
-  ) %>% 
-  cols_width(
-    " " ~ px(350))
-
-
-```
-
-]
-
-.pull-right[
-
-<br>
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.height= "100%", out.width="100%"  }
-
-library(datapasta)
-library(gt)
-library(tidyverse)
-library(glue)
-
-
-T2<-tibble::tribble(
-                                          ~" ",
-                               "* Sutherland (2019)",
-                            "* Schmidt et al. (2019)",
-  ">>> Topic: Government subsidies, economic stimulus"
-  )
-
-
-T3<-tibble::tribble(
-                                    ~" ",
-                "* Asimakopoulos et al. (2009)",
-                       "* Claver et al. (2002)",
-  ">>> Topic: Size, sales growth and investment"
-  )
-
-
-
-T2 %>% 
-  gt() %>% 
-tab_header(
-title = md("**Renewables energy**"),
-subtitle = md("Authors")
-  ) %>% 
-  cols_width(
-    " " ~ px(350))  
-
-
-  
-T3 %>% 
-  gt() %>% 
-tab_header(
-title = md("**Beyond the energy field**"),
-subtitle = md("Authors")
-  ) %>% 
-  cols_width(
-    " " ~ px(350))  
-
-```
-
-]
-
-
-???
-
-Diapo 6: Literatura
-
-All companies are exposed to changes in global liquidity. However, the profitability of companies in the different energy subsectors can be very different due to the different activities carried out by energy companies.
-
-In the case of oil, coal or gas companies, for example, different authors show that variations in interest rates affect the prices of raw materials, mainly the price of oil, an issue that modifies the profitability of companies.
-
-In the renewable energy sector, different authors show that interest rates have an effect on economic stimuli and subsidies. These implications affect decision-making to maximize the value of companies.
-
-Other aspects that influence profitability beyond the energy sector are aspects of size, sales and investments.
-
--->
 
 <!-- ---
 
@@ -486,7 +350,7 @@ About the methodology and the data, we have:
 -->
 
 
----
+
 
 <div class="my-logo-right"></div>
 

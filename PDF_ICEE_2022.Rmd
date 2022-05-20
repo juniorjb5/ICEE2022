@@ -874,42 +874,10 @@ This figure shows the first component (black line). It explains 82.8% of the var
 
 # Response surface
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.height= "100%", out.width="100%"  }
 
-
-cp1<-readRDS("RDS/28abr.cp1_coal.RDS")
-#cp2<-readRDS("RDS/cp1_oil.RDS")
-#cp3<-readRDS("RDS/cp1_oil_es.RDS")
-#cp4<-readRDS("RDS/cp1_renewable.RDS")
-#cp5<-readRDS("RDS/cp1_uranium.RDS")
-
-
-library(plotly)
-
-ejey<-as.numeric(rownames(cp1$matfit))
-
-p1 <- plot_ly(z = ~cp1$matfit, y= ejey) %>% 
-  add_surface(colorbar = list(title="Profitability")) %>% 
-  layout(
-    title = "The effect of global liquidity on the profitability of coal firms",
-    scene = list(
-      xaxis = list(title = "Lag"),
-      yaxis = list(title = "WIR"),
-      zaxis = list(title = "Profitability")
-    ))
-
-p1
-
-#library(viridis)
-#filled.contour(x=cp1$predvar,y=seq(cp1$lag[1],cp1$lag[2],cp1$bylag),
-#               z=cp1$matfit,axes=T, zlim = c(-0.1,0.1),xlab="WIR",color.palette = viridis,
-#               ylab="Lag", key.title={par(cex.main=0.9);title("Profitability")},
-#               main= "COAL", cex.main= 1.5)
-
-
-
-
-```
+.center[
+<img  src="img/newplot.PNG" />
+ ]
 
 
 ???
