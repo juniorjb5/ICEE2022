@@ -100,7 +100,7 @@ Universitat Oberta de Catalunya
 
 •	Diapositiva 1 - Saludo
 
-Hello, Good afternoon. Thank you very much for attending my presentation. It is a pleasure to be here and share with you.
+Hello, Good morning. Thank you very much for attending my presentation. It is a pleasure to be here and share with you.
 Today, I'm going to talk about Global liquidity and the profitability of energy firms. In advance, I apologize for my English.
 
 
@@ -794,17 +794,13 @@ knitr::include_graphics("img/contour.png")
 
 Diapo 11: Results
 
-Here we can compare the behavior of the estimated effect for each subsector. We point out that the effect is not symmetric, that is, the behavior when the WIR decreases is not the same when the WIR increases.
+Here we can compare the behavior of the estimated effect for each subsector. We point out that the effect is not symmetric, that is, the behavior when the WIR decreases is not the same when the WIR increases, (remember.. decreases in WIR represent increases in the global liquidity).
+
 
 We can identify that the Oil and Gas sector is the most sensitive in the first lags to increases in global liquidity.
 
 
-
-This figure presents contour plots that summarize the response of ROA to changes in global liquidity in different energy subsectors. In general, we find that decreases in the world interest rate (WIR) are associated with higher profitability in all sectors, except for uranium. For the coal subsector, the figure shows that the main effect on profitability occurs over the first two quarters, after which the shock stabilizes. In the case where the WIR increases, slight tendencies to increase profitability are observed in the equipment and services of Oil and Gas, but the effect is not strong. 
-
-
-The profitability of firms in the oil & gas subsector shows a strong positive response to an increase in global liquidity (remember.. decreases in WIR represent increases in the global liquidity), especially between the first and second quarters. In the case of companies in the renewable subsector, profitability increases around the second quarter after a liquidity shock. This subsector responds more slowly if global liquidity increases compared to the rest of the subsectors. Finally, uranium firms present a significantly different behavior in the tails of the distribution. That is, both increases and decreased extremes in global liquidity affect reduce profitability.   
-
+This figure presents contour plots that summarize the response of ROA to changes in global liquidity in different energy subsectors. In general, we find that decreases in the world interest rate (WIR) are associated with higher profitability in all sectors, except for uranium. For the coal subsector, the figure shows that the main effect on profitability occurs over the first two quarters, after which the shock stabilizes. In the case where the WIR increases, slight tendencies to increase profitability are observed in the equipment and services of Oil and Gas, but the effect is not strong. The same in renewable energy.
 
 
 
