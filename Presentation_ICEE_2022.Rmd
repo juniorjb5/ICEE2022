@@ -70,7 +70,7 @@ knitr::include_graphics("img/logos.png")
 width="100px" href="https://www.joaquibarandica.com"
 />
 
-[PhD. Student. Orlando Joaqui-Barandica](https://www.joaquibarandica.com) <br/>
+[Orlando Joaqui-Barandica, M.Sc.](https://www.joaquibarandica.com) <br/>
 Universidad del Valle
 ]
 
@@ -80,7 +80,7 @@ Universidad del Valle
 width="100px"
 />
 
-[PhD. Diego F. Manotas-Duque](http://industrial.univalle.edu.co/profesores/diego-fernando-manotas-duque) <br>
+[Diego F. Manotas-Duque, Ph.D.](http://industrial.univalle.edu.co/profesores/diego-fernando-manotas-duque) <br>
 Universidad del Valle
 ]
 
@@ -89,7 +89,7 @@ Universidad del Valle
 width="100px"
 />
 
-[PhD. Jorge M. Uribe](https://jorgemuribe.com/) <br>
+[Jorge M. Uribe, Ph.D.](https://jorgemuribe.com/) <br>
 Universitat Oberta de Catalunya
 ]
 
@@ -239,9 +239,14 @@ In the first place, the internal determinants are associated with the characteri
 
 .left-column[
 
+.left[
+
 ## Profitability... 
 
 ... is defined as the ability to take advantage of resources to generate profits, therefore, as an indicator of effective management.
+
+]
+
 ]
 
 
@@ -874,11 +879,11 @@ Now, in the conclusions we have..
 
 Diapo 11: Conclusiones
 
-The effect of global liquidity on the profitability of energy companies is completely non-linear, that is, asymmetric.
+The effect of global liquidity on profitability is not linear, that refers to asymmetric effects
 
 
 
-The profitability of energy companies is affected differently depending on their sub-sector relative to global liquidity... ehmm, This is mainly due to the financing structure of the companies.
+The relationship between profitability and global liquidity for each subsector is different, depending on its asset structure as a result of the generation source.
 
 
 ---
@@ -931,11 +936,16 @@ The profitability of energy companies is affected differently depending on their
 
 Diapo 12: Conclusiones
 
-Increases in global liquidity, i.e., negative WIR, present stronger effects on profitability, but these are not persistent over time. We were able to identify that the impact on profitability is observed mainly during the first and third quarters.
+
+The most relevant effect occurs when the WIR is negative, that refers to, increases in global liquidity. This effect occurs in the first, second, or third trimester, but it is not persistent over time.
 
 
 
-Uranium companies show strong positive effects on profitability given changes in global liquidity (ie negative WIR). It is important to delve into the financial and equity structure of these companies.
+The uranium subsector has a different behavior from other subsectors. Future research could analyze the specific composition of the assets in this subsector.
+
+
+
+
 
 ---
 
@@ -990,7 +1000,7 @@ Uranium companies show strong positive effects on profitability given changes in
 
 Diapo 13: Conclusiones
 
-We show that the decrease in interest rates by the different monetary authorities boosts liquidity and, in turn, the profitability of energy companies. This supports economic growth and restores financial stability.
+Finally, we can conclude that the actions by the monetary regulators to incentive the economy have effects on all the companies in the energy sector, mainly in oil and gas.
 
 
 
