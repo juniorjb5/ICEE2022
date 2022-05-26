@@ -70,7 +70,6 @@ knitr::include_graphics("img/Imagen1.jpg")
 ]
 ]
 
-
 .pull-right[
 
 
@@ -79,7 +78,7 @@ knitr::include_graphics("img/Imagen1.jpg")
 width="100px" href="https://www.joaquibarandica.com"
 />
 
-[PhD. Student. Orlando Joaqui-Barandica](https://www.joaquibarandica.com) <br/>
+[Orlando Joaqui-Barandica, M.Sc.](https://www.joaquibarandica.com) <br/>
 Universidad del Valle
 ]
 
@@ -89,7 +88,7 @@ Universidad del Valle
 width="100px"
 />
 
-[PhD. Diego F. Manotas-Duque](http://industrial.univalle.edu.co/profesores/diego-fernando-manotas-duque) <br>
+[Diego F. Manotas-Duque, Ph.D.](http://industrial.univalle.edu.co/profesores/diego-fernando-manotas-duque) <br>
 Universidad del Valle
 ]
 
@@ -98,11 +97,12 @@ Universidad del Valle
 width="100px"
 />
 
-[PhD. Jorge M. Uribe](https://jorgemuribe.com/) <br>
+[Jorge M. Uribe, Ph.D.](https://jorgemuribe.com/) <br>
 Universitat Oberta de Catalunya
 ]
 
 ]
+
 
 
 ???
