@@ -226,7 +226,7 @@ Although, different companies may in turn present different causes or events tha
 
 We could mainly identify two foci of the determinants.
 
-In the first place, the internal determinants are associated with the characteristics of the companies. And secondly, the external determinants are associated with aspects that are not controlled by the company's management but that clearly influence decision-making or management strategies.
+In the first place, we have the internal determinants, that refers to all characteristics in the company. On the other hand, we have the external determinants, that refers to all characteristics external to the company that cant be controlled by the CEOs or managers but that clearly influence on profitability, or decision-making or management strategies.
 
 
 ---
@@ -285,11 +285,11 @@ Identifying the determinants of profitability and anticipating its fluctuations 
 
 Diapo 4: Motivación
 
-The importance of profitability lies in its relevance as an indicator of efficient management in terms of utility and benefit for companies. 
+The importance of profitability lies on its relevance as an indicator of efficient management in terms of utility and benefit for companies. 
 
 In the case of the energy companies, we found a big difference in their composition and management strategies, mainly by the sources of generation as to oil, wind, water or solar. This generates different strategies to maximize the value of the companies due to their operation.
 
-Different authors have identified Internal aspects or idiosyncratic characteristics as firms' age, or size, financial leverage, etc., and the external determinants can be fuel prices, interest rates, exchange rates, economic activity, etc. Many other internal and external measurable characteristics can be listed.
+Different authors have identified Internal aspects as firms' age, or size, financial leverage, etc., On the other hand, the external determinants can be fuel prices, interest rates, exchange rates, economic activity, etc. 
 
 
 
@@ -418,7 +418,7 @@ First, we construct a common factor from different developed market interest rat
 
 Second, we estimate a common factor of profitability for firms in each subsector. We do this using Principal Functional Component Analysis.
 
-Third, we measure the effect of global liquidity on profitability using the nonlinear distributed lag model. An advantage of this analysis is to observe the effect through the lags of the predictor variable.
+Third, we measure the effect of global liquidity on profitability using the nonlinear distributed lag model. We estimate a smooth response surface (Sj). An advantage of this analysis is to observe the effect through the lags of the predictor variable (WIR).
 
 
 
@@ -663,14 +663,12 @@ Diapo 7: Data
 Our data on the profitability of energy companies and the macroeconomic interest rate environment come from two different sources.
 
 We use ROA, which is Return on Assets, ROA measures the operating efficiency of a company.
+We have 536 companies, with major participation of Oil and Gas companies.
 
-We have 536 companies, with greater participation of Oil and Gas companies, then, companies related to equipment and services, renewable energies, coal and uranium.
+We use short and long-term interest rates for 21 countries of developed economies regarding global liquidity information. Long-term interest rates refer to government bonds maturing in ten years. Short-term interest rates are based on three-month money market rates.
 
+Finally, we present the distribution of the companies in our sample. The US and Canada have the largest participation in the sample. This map allows us to visualize our sample around the world.
 
-We use short and long-term interest rates for 21 countries of developed economies regarding global liquidity information.
-
-
-Finally, we present the distribution of the companies in our sample. The US and Canada stand out with 255 and 114 respectively. This map allows visualizing that geographically our sample is well distributed.
 
 
 <!-- ---
@@ -711,7 +709,7 @@ Diapo 8: Results
 
 
 
-This figure shows the first component (black line). It explains 82.8% of the variability in the dataset and captures general market movements. Our series of interest rates as well as our estimated factor are centered.
+This figure shows the first component (black line). It explains 82% of the variability in the dataset and captures general market movements. Our series of interest rates as well as our estimated factor are centered.
 
 
 
@@ -766,9 +764,11 @@ p1
 
 Diapo 9: Results
 
-Subsequently, this figure is the result of the DLNM method. Here, we present the response surface which has 3 dimensions. Profitability, WIR and Lag.
+This plot is the main result of the DLNM method. We present the response surface with 3 dimensions. Here, we have the lags, which refer to the time or delay, on this side the WIR which refers to the predictor variable and on this side the Profitability which refers to the response variable.
 
-In this case, we can see that the strongest effects occur when WIR is negative. Also, we can see how the effect changes over the delays. But, reading these graphs in 3d is usually somewhat complex. That is why it is better to present contour plots.
+
+The surface presents all the effects. When the WIR decreases and we have the first lags, the effect on the profitability is high.
+But, reading these graphs in 3d is usually complex. For this reason, it is better to present contour plots.
 
 
 ---
@@ -789,13 +789,11 @@ knitr::include_graphics("img/contour.png")
 
 Diapo 10: Results
 
-Here we can compare the behavior of the estimated effect for each subsector. We point out that the effect is not symmetric, that is, the behavior when the WIR decreases is not the same when the WIR increases, (remember.. decreases in WIR represent increases in the global liquidity).
+Here we can compare the estimated effect for each subsector. We note that the effect is not symmetric, meaning that the effect when WIR decreases is not the same as when WIR increases (remember... decreases in WIR represent increases in global liquidity).
 
+We can identify that the Oil and Gas subsector is the most sensitive in the first lags when the WIR decreases.
 
-We can identify that the Oil and Gas sector is the most sensitive in the first lags to increases in global liquidity.
-
-
-This figure presents contour plots that summarize the response of ROA to changes in global liquidity in different energy subsectors. In general, we find that decreases in the world interest rate (WIR) are associated with higher profitability in all sectors, except for uranium. For the coal subsector, the figure shows that the main effect on profitability occurs over the first two quarters, after which the shock stabilizes. In the case where the WIR increases, slight tendencies to increase profitability are observed in the equipment and services of Oil and Gas, but the effect is not strong. The same in renewable energy.
+The subsectors of Coal, Oil & Gas related to equipment and services, and renewables, have similar behavior. In general, we find that declines in the world interest rate (WIR) are associated with higher profitability in all sectors except the uranium subsector. This subsector has negative effects on profitability.
 
 
 
@@ -879,7 +877,9 @@ Now, in the conclusions we have..
 
 Diapo 11: Conclusiones
 
-The effect of global liquidity on profitability is not linear, that refers to asymmetric effects
+The effect of global liquidity on profitability is not linear, that refers to asymmetric effects.
+
+
 
 
 
@@ -1000,7 +1000,7 @@ The uranium subsector has a different behavior from other subsectors. Future res
 
 Diapo 13: Conclusiones
 
-Finally, we can conclude that the actions by the monetary regulators to incentive the economy have effects on all the companies in the energy sector, mainly in oil and gas.
+Finally, we can conclude that the actions taken by the monetary regulators to incentivize the economy,,, have effects on all the companies in the energy sector, mainly in oil and gas.
 
 
 
@@ -1031,7 +1031,7 @@ class: inverse, mline, center, bottom
 
 Diapositiva 14 – Thanks
 
-Thank you very much for your attention. Again, I apologize for my imperfect pronunciation.
+Thank you very much for your attention. Again, I apologize for my imperfect pronunciation. Is there any question?
 
 
 

@@ -243,16 +243,19 @@ In the first place, the internal determinants are associated with the characteri
 
 <div class="my-logo-right"></div>
 
-
 # Motivation
 
 .left-column[
 
+.left[
+
 ## Profitability... 
 
 ... is defined as the ability to take advantage of resources to generate profits, therefore, as an indicator of effective management.
+
 ]
 
+]
 
 .right-column[
 
@@ -511,23 +514,41 @@ About the methodology and the data, we have:
     <br>
 </div>
 
+.pull-left[
 
 > `r emo::ji("two")` We estimate `Common factor of profitability` of a sample the energy companies worldwide using FPCA (Functional Principals Components Analyses)  according to their energy subsector:  
+.font90[
 * Coal
 * Oil & Gas
 * Oil & Gas Related Equipment and Services
 * Renewable Energy 
 * Uranium
+]
+
 
 <div style="line-height:5%;">
     <br>
 </div>
 
+]
+
+.pull-right[
 
 > `r emo::ji("three")` We measure `The effect of global liquidity on profitability` using  DLNM (Distributed Lag Nonlinear Model ).
 
+<br>
+
+.font90[
+$$\begin{equation}
+    g\left(\mu_t\right)=\alpha+\sum_{j=1}^{J}{s_j\left({WIR}_{tj};\beta_j\right)}+\sum_{k=1}^{K}\gamma_ku_{tk}
+    \end{equation} \nonumber$$
 
 ]
+]
+
+
+]
+
 
 
 ???
@@ -647,34 +668,6 @@ Below, we use Functional Principal Component Analysis due to the characteristics
 
 ---
 
-
-<div class="my-logo-right"></div>
-
-
-# Distributed lag nonlinear model (DLNM)
-
-<br>
-
-.font120[
-We propose to use the FPC regarding energy firm’s profitability as the response variable in our model and our global liquidity indicator as to the explanatory variable. This relationship is given by:
-
-$$\begin{equation}
-g\left(\mu_t\right)=\alpha+\sum_{j=1}^{J}{s_j\left({WIR}_{tj};\beta_j\right)}+\sum_{k=1}^{K}\gamma_ku_{tk}
-\end{equation}$$
-
-
-where $\mu\equiv E(\hat{\xi})$, $g$ is a monotonic link function. The function $s_j$ represents the smoothed relationship between the variables ${WIR}_j$ and the linear predictor that is represented by the vector of parameters $\beta_j$. The variables $u_k$ include other predictors with linear effects specified by the related coefficients $\gamma_k$ `(Gasparrini, 2011)`. 
-
-]
-
-
-???
-
-Diapo 7: Metodología
-
-In our main DLNM method, we relate our global interest rate factor and the functional components of profitability. This model allows the construction of a response surface where the effects of the WIR on profitability are represented. An advantage of this analysis is to observe the effect through the lags of the predictor variable.
-
----
 
 <div class="my-logo-right"></div>
 
